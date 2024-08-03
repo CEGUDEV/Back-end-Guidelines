@@ -67,7 +67,7 @@ When creating a pull request, we recommend to use concise yet description, this 
 #### Pull Request Description Body
 When creating a pull request, the body description of pull request should be provided detailed information about a pull request does, Why it is needed, and any other relevant context, you can link trello ticket in this section.
 ```git
-  ### Summarry
+  ### Summary
   This pr implements the login google SSO feature as described in {link-trello-ticket}
 
   ### Details
@@ -75,7 +75,7 @@ When creating a pull request, the body description of pull request should be pro
   - Added token JWT Authentication and Authorization
   - Provide some private and public key for supporting JWT
 
-  ### Jira Issue
+  ### Trello Issue
   [TCT-1142]({link-trello-ticket})
 ```
 #### Linking Trello Stories On Commit Message
